@@ -4,8 +4,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Jon Hall",
-            "email": "jon@flowmo.co"
+            "name": "Jon Hall"
         }
     ],
     "minimum-stability": "stable",

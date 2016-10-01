@@ -1,0 +1,18 @@
+services:
+    jall_aop_monolog.logger_factory:
+        class: Jall\AopMonologBundle\Service\LoggerFactory
+        arguments:
+            # This service requires the container because there does not appear to be any way to set the channel of a
+            # logger after injection, or any logger factory service provided which will allow this.
+            - "@service_container"
+
+    jall_aop_monolog.expression_langauge:
+        class: Jall\AopMonologBundle\Service\ExpressionLanguage
+
+    jall_aop_monolog.aspect.log:
+        class: Jall\AopMonologBundle\Aspect\LogAspect
+        arguments:
+            - "@jall_aop_monolog.logger_factory"
+            - "@jall_aop_monolog.expression_langauge"
+        tags:
+            - { name: goaop.aspect }
