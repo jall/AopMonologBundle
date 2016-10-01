@@ -1,0 +1,19 @@
+# IDEs
+/.idea
+
+# Dependencies
+/vendor
+
+# Junk files
+*.tmp
+*.patch
+*.log*
+*.swp
+*.bak
+*.DS_Store
+.#*
+
+# Local configuration
+phpunit.xml
+.vagrant
+Vagrantfile
