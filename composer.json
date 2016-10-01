@@ -1,0 +1,30 @@
+{
+    "name": "jall/aop-monolog-bundle",
+    "description": "A symfony bundle to allow simple AOP logging with the Monolog library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jon Hall",
+            "email": "jon@flowmo.co"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~5.6|~7.0",
+        "symfony/framework-bundle": "2.*",
+        "symfony/symfony": "2.*",
+        "goaop/goaop-symfony-bundle": "~2.0",
+        "symfony/monolog-bundle": "~2.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "Jall\\AopMonologBundle\\": ""
+        }
+    },
+    "keywords": [
+        "logging",
+        "monolog",
+        "aop",
+        "go-aop"
+    ]
+}

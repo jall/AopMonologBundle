@@ -2,6 +2,7 @@
 /.idea
 
 # Dependencies
+composer.lock
 /vendor
 
 # Junk files
