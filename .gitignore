@@ -1,6 +1,3 @@
-# IDEs
-/.idea
-
 # Dependencies
 composer.lock
 /vendor
@@ -9,10 +6,7 @@ composer.lock
 *.tmp
 *.patch
 *.log*
-*.swp
 *.bak
-*.DS_Store
-.#*
 
 # Local configuration
 phpunit.xml
