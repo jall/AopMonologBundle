@@ -2,8 +2,6 @@
 
 namespace Jall\AopMonologBundle\Annotation;
 
-use Doctrine\Common\Annotations\Annotation;
-
 /**
  * @Annotation
  * @Target({"METHOD"})
