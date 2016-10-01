@@ -15,6 +15,9 @@
         "goaop/goaop-symfony-bundle": "~2.0",
         "symfony/monolog-bundle": "~2.4"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~5.5"
+    },
     "autoload":{
         "psr-4":{
             "Jall\\AopMonologBundle\\": ""
