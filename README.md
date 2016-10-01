@@ -6,7 +6,7 @@ The bundle provides some very simple AOP logging functionality by building on to
 Installation
 ------------
 
-See the full [installation documentation][1].
+See the full [installation documentation][3].
 
 Usage
 -----
