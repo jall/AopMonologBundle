@@ -4,6 +4,7 @@ JallAopMonologBundle
 [![Latest Stable Version](https://poser.pugx.org/jall/aop-monolog-bundle/v/stable)](https://packagist.org/packages/jall/aop-monolog-bundle)
 [![Total Downloads](https://poser.pugx.org/jall/aop-monolog-bundle/downloads)](https://packagist.org/packages/jall/aop-monolog-bundle)
 [![License](https://poser.pugx.org/jall/aop-monolog-bundle/license)](https://packagist.org/packages/jall/aop-monolog-bundle)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/4b8fba47-71ab-4d62-9759-8103b977ff2c/mini.png)](https://insight.sensiolabs.com/projects/4b8fba47-71ab-4d62-9759-8103b977ff2c)
 
 The bundle provides some very simple AOP logging functionality by building on top of the [GoAopBundle][1] and [MonologBundle][2].
 
