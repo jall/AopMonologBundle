@@ -98,7 +98,7 @@ class PaymentProcessor
 ```
 
 Sample log output:
-> [2016-10-01 16:08:44] payment.ERROR: Invoice {{ invoice.id }} payment failed as payment method {{ paymentMethod.id }} has expired. {"invoice.id": "243","paymentMethod.id": "82","paymentMethod.expiryDate": "2015-06-21T13:42:00","exception":"[object] (InvalidArgumentException(code: 0): Invoice payment failure: payment method '87' expired on 2015-06-21T13:42:00. at /var/www/my-site/src/AppBundle/Service/PaymentProcessor.php:126"} []
+> [2016-10-01 12:00:00] payment.ERROR: Invoice {{ invoice.id }} payment failed as payment method {{ paymentMethod.id }} has expired. {"invoice.id": "243","paymentMethod.id": "87","paymentMethod.expiryDate": "2015-06-21T13:42:00","exception":"[object] (InvalidArgumentException(code: 0): Invoice payment failure: payment method '87' expired on 2015-06-21T13:42:00. at /var/www/my-site/src/AppBundle/Service/PaymentProcessor.php:126"} []
 
 The 'Log' annotation will always trigger when the function it is attached to is called, unless an exception is thrown.
 The 'LogException' annotation will only trigger when the function it is attached to throws an exception.
