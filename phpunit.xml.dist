@@ -3,7 +3,7 @@
 <phpunit bootstrap="./vendor/autoload.php" colors="true">
     <testsuites>
         <testsuite name="JallAopMonologBundle test suite">
-            <directory suffix="Test.php">./Tests</directory>
+            <directory>./Tests</directory>
         </testsuite>
     </testsuites>
 
@@ -11,6 +11,10 @@
         <whitelist>
             <directory>./</directory>
             <exclude>
+                <!-- If any business logic is ever added to Annotations or DependencyInjection -->
+                <!-- they should be removed from exclusion -->
+                <directory>./Annotation</directory>
+                <directory>./DependencyInjection</directory>
                 <directory>./Resources</directory>
                 <directory>./Tests</directory>
                 <directory>./vendor</directory>
