@@ -101,7 +101,7 @@ If this behaviour is desired, a Monolog processor can be added to perform this r
 
 The _level_ variable is one of the [PSR-3 log levels][1] and is a string.
 
-It defaults to 'info'. 
+It defaults to 'debug'.
 
 ### Channel ###
 
@@ -120,11 +120,8 @@ alongside the message. It defaults to '{}'.
 It uses the Symfony [expression language][2] on the annotation strings to convert them into useful data to be stored.
 
 There are two special provided variables that can be used in context strings: 'input' and 'output'.
-
-'input' is an associative array of the function parameters; keys are the parameter names and values are what was 
-provided to that parameter in the current function call.
-
-'output' is the return value of the function being called (if it had one).
+* 'input' is an associative array of the function parameters; keys are the parameter names and values are what was provided to that parameter in the current function call.
+* 'output' is the return value of the function being called (if it had one).
 
 For the 'LogException' annotation an extra variable 'exception' is automatically included in the context, which holds 
 the __toString value of the exception that was thrown.
