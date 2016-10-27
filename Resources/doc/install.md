@@ -50,7 +50,7 @@ class AppKernel extends Kernel
 }
 ```
 
-Step 2: Configure the Bundle
+Step 3: Configure the Bundle
 ----------------------------
 
 Finally, ensure that any locations you wish to use this bundle's logging annotations in are
