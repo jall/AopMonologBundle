@@ -23,6 +23,13 @@ Usage
 
 See the [usage documentation][4].
 
+Testing
+-------
+
+```
+./vendor/bin/phpunit
+```
+
 Further reading
 ---------------
 
