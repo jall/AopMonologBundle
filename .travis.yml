@@ -3,8 +3,8 @@ language: php
 php:
   - 5.6
   - 7.0
+  - 7.1
   - hhvm
-  - nightly
 
 cache:
     directories:
@@ -12,7 +12,7 @@ cache:
 
 before_install:
     - composer self-update
-    - composer require --dev --no-update symfony/symfony:2.8.*
+    - composer require --dev --no-update symfony/symfony:^2.8||^3.0
 
 install:
     - composer install
